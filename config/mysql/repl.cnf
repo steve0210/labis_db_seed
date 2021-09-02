@@ -1,0 +1,9 @@
+[mysqld]
+server-id=2
+log-bin=mysql-bin
+
+gtid_mode=ON
+enforce-gtid-consistency=ON
+
+log-slave-updates=ON
+report-host=myslave
