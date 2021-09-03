@@ -2,6 +2,12 @@ tables:
   - account_preferences
   - accounts
   - accounts_case_types
+  - client_accounts
+  - client_account_locations
+  - client_account_locations_client_account_physicians
+  - client_account_physicians
+  - client_account_location_report_preferences
+  - client_account_todos
   - accounts_delivery_methods
   - amendment_reasons
   - body_site_specimen_maps
@@ -24,12 +30,6 @@ tables:
   - cassette_print_outlets
   - cbc_code_groups
   - cbc_codes
-  - client_account_location_report_preferences
-  - client_account_locations
-  - client_account_locations_client_account_physicians
-  - client_account_physicians
-  - client_account_todos
-  - client_accounts
   - conditions
   - configurables
   - control_code_types
