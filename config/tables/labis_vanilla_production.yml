@@ -104,7 +104,6 @@ tables:
   - specimen_types_variable_fields
   - stain_preorder_preferences
   - stain_preorder_preferences_tests
-  - stainer_types
   - states
   - support_categories
   - support_users
