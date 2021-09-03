@@ -91,7 +91,6 @@ tables:
   - roles
   - roles_users
   - screen_types
-  - send_out_lab_types
   - spec_rec_count_type_types
   - specialties
   - specimen_clarities
