@@ -97,8 +97,6 @@ tables:
   - specimen_cycles
   - specimen_test_categories
   - specimen_test_panel_components
-  - specimen_test_send_out_labs
-  - specimen_test_stainers
   - specimen_test_types
   - specimen_tests
   - specimen_types
