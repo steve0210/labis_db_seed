@@ -59,9 +59,9 @@ class LoadTable < DynTable
 
   def init_file
     if tn = TABLES[class_name]
-      %{Object.const_set("#{class_name}", Class.new(ApplicationRecord) { self.table_name = "#{tn}" })}
+      %{Object.const_set("#{class_name}", Class.new(ActiveRecord::Base) { self.table_name = "#{tn}" })}
     else
-      %{Object.const_set("#{class_name}", Class.new(ApplicationRecord))}
+      %{Object.const_set("#{class_name}", Class.new(ActiveRecord::Base))}
     end
   end
 
