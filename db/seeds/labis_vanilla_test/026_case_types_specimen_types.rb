@@ -1,4 +1,4 @@
-Object.const_set("CaseTypesSpecimenType", Class.new(ApplicationRecord))
+Object.const_set("CaseTypesSpecimenType", Class.new(ActiveRecord::Base))
 CaseTypesSpecimenType.find_or_create_by({"case_type_id"=>1, "specimen_type_id"=>1})
 CaseTypesSpecimenType.find_or_create_by({"case_type_id"=>1, "specimen_type_id"=>2})
 CaseTypesSpecimenType.find_or_create_by({"case_type_id"=>1, "specimen_type_id"=>3})

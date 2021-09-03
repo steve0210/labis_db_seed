@@ -1,4 +1,4 @@
-Object.const_set("ScreenType", Class.new(ApplicationRecord))
+Object.const_set("ScreenType", Class.new(ActiveRecord::Base))
 ScreenType.find_or_create_by({"description"=>"Initial"})
 ScreenType.find_or_create_by({"description"=>"Mandatory", "pap_queue_id"=>1})
 ScreenType.find_or_create_by({"description"=>"User Requested", "pap_queue_id"=>1})

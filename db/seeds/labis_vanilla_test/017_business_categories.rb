@@ -1,4 +1,4 @@
-Object.const_set("BusinessCategory", Class.new(ApplicationRecord))
+Object.const_set("BusinessCategory", Class.new(ActiveRecord::Base))
 BusinessCategory.find_or_create_by({"description"=>"All"})
 BusinessCategory.find_or_create_by({"description"=>"Client Center"})
 BusinessCategory.find_or_create_by({"description"=>"Lab Processing"})

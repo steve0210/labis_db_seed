@@ -1,4 +1,4 @@
-Object.const_set("QaCategory", Class.new(ApplicationRecord))
+Object.const_set("QaCategory", Class.new(ActiveRecord::Base))
 QaCategory.find_or_create_by({"description"=>"Specimen Processing", "account_id"=>1})
 QaCategory.find_or_create_by({"description"=>"Data Entry Issues", "account_id"=>3})
 QaCategory.find_or_create_by({"description"=>"Lab Processing Errors", "account_id"=>3})

@@ -1,4 +1,4 @@
-Object.const_set("RolesUser", Class.new(ApplicationRecord))
+Object.const_set("RolesUser", Class.new(ActiveRecord::Base))
 RolesUser.find_or_create_by({"role_id"=>1, "user_id"=>2})
 RolesUser.find_or_create_by({"role_id"=>6, "user_id"=>2})
 RolesUser.find_or_create_by({"role_id"=>486, "user_id"=>3})

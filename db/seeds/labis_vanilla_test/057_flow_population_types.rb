@@ -1,4 +1,4 @@
-Object.const_set("FlowPopulationType", Class.new(ApplicationRecord))
+Object.const_set("FlowPopulationType", Class.new(ActiveRecord::Base))
 FlowPopulationType.find_or_create_by({"description"=>"Lymphoid Cells"})
 FlowPopulationType.find_or_create_by({"description"=>"Myeloid Cells"})
 FlowPopulationType.find_or_create_by({"description"=>"Monocytic Cells"})

@@ -1,4 +1,4 @@
-Object.const_set("QuestionType", Class.new(ApplicationRecord))
+Object.const_set("QuestionType", Class.new(ActiveRecord::Base))
 QuestionType.find_or_create_by({"description"=>"Radio"})
 QuestionType.find_or_create_by({"description"=>"Checkbox"})
 QuestionType.find_or_create_by({"description"=>"TextArea"})

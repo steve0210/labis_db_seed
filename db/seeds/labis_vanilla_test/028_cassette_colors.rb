@@ -1,4 +1,4 @@
-Object.const_set("CassetteColor", Class.new(ApplicationRecord))
+Object.const_set("CassetteColor", Class.new(ActiveRecord::Base))
 CassetteColor.find_or_create_by({"description"=>"Aqua", "carousel_number"=>1})
 CassetteColor.find_or_create_by({"description"=>"Blue", "carousel_number"=>2})
 CassetteColor.find_or_create_by({"description"=>"Gray", "carousel_number"=>3})

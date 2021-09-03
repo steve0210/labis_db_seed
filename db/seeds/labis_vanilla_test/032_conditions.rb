@@ -1,4 +1,4 @@
-Object.const_set("Condition", Class.new(ApplicationRecord))
+Object.const_set("Condition", Class.new(ActiveRecord::Base))
 Condition.find_or_create_by({"description"=>"Accessioned"})
 Condition.find_or_create_by({"description"=>"Grossed"})
 Condition.find_or_create_by({"description"=>"Signed-Off"})

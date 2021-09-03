@@ -1,4 +1,4 @@
-Object.const_set("MaritalStatus", Class.new(ApplicationRecord))
+Object.const_set("MaritalStatus", Class.new(ActiveRecord::Base))
 MaritalStatus.find_or_create_by({"description"=>"Single"})
 MaritalStatus.find_or_create_by({"description"=>"Married"})
 MaritalStatus.find_or_create_by({"description"=>"Separated"})

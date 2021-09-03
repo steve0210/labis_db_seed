@@ -1,4 +1,4 @@
-Object.const_set("Configurable", Class.new(ApplicationRecord))
+Object.const_set("Configurable", Class.new(ActiveRecord::Base))
 Configurable.find_or_create_by({"description"=>"from email", "setting"=>"noreply@cblpath.com", "title"=>"CBLPath From Email Setting", "details"=>"The From setting for emails sent to clients from LabIS."})
 Configurable.find_or_create_by({"description"=>"support email", "setting"=>"support@cblpath.com"})
 Configurable.find_or_create_by({"description"=>"reset url", "setting"=>"https://www.Labis.net/home/create_new_password", "title"=>"Reset Password Email URL", "details"=>"The URL that will be embedded in the emails sent to new users and users who forgot their password. Must end in a '/' "})

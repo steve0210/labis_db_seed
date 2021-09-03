@@ -1,4 +1,4 @@
-Object.const_set("CytologyDifferential", Class.new(ApplicationRecord))
+Object.const_set("CytologyDifferential", Class.new(ActiveRecord::Base))
 CytologyDifferential.find_or_create_by({"name"=>"Blasts", "order"=>1, "active"=>true, "range_low"=>0, "range_high"=>3})
 CytologyDifferential.find_or_create_by({"name"=>"Promyelocytes", "order"=>2, "active"=>true, "range_low"=>0, "range_high"=>8})
 CytologyDifferential.find_or_create_by({"name"=>"Neutrophils/Maturing myeloids", "order"=>3, "active"=>true, "range_low"=>50, "range_high"=>70})

@@ -1,4 +1,4 @@
-Object.const_set("CaseTypeGrossingElement", Class.new(ApplicationRecord))
+Object.const_set("CaseTypeGrossingElement", Class.new(ActiveRecord::Base))
 CaseTypeGrossingElement.find_or_create_by({"parent_id"=>1, "grossing_element_id"=>1, "parent_type"=>"CaseType"})
 CaseTypeGrossingElement.find_or_create_by({"parent_id"=>1, "grossing_element_id"=>4, "parent_type"=>"CaseType"})
 CaseTypeGrossingElement.find_or_create_by({"parent_id"=>1, "grossing_element_id"=>5, "parent_type"=>"CaseType"})

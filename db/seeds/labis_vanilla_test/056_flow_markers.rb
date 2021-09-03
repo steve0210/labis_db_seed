@@ -1,4 +1,4 @@
-Object.const_set("FlowMarker", Class.new(ApplicationRecord))
+Object.const_set("FlowMarker", Class.new(ActiveRecord::Base))
 FlowMarker.find_or_create_by({"description"=>"CD19", "flow_marker_type_id"=>3})
 FlowMarker.find_or_create_by({"description"=>"CD20", "flow_marker_type_id"=>3})
 FlowMarker.find_or_create_by({"description"=>"CD200", "flow_marker_type_id"=>3})

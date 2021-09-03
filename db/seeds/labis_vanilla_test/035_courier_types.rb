@@ -1,1 +1,1 @@
-Object.const_set("CourierType", Class.new(ApplicationRecord))
+Object.const_set("CourierType", Class.new(ActiveRecord::Base))

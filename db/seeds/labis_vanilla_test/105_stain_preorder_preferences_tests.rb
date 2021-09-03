@@ -1,4 +1,4 @@
-Object.const_set("StainPreorderPreferencesTest", Class.new(ApplicationRecord))
+Object.const_set("StainPreorderPreferencesTest", Class.new(ActiveRecord::Base))
 StainPreorderPreferencesTest.find_or_create_by({"stain_preorder_preference_id"=>1, "specimen_test_id"=>682})
 StainPreorderPreferencesTest.find_or_create_by({"stain_preorder_preference_id"=>2, "specimen_test_id"=>682})
 StainPreorderPreferencesTest.find_or_create_by({"stain_preorder_preference_id"=>3, "specimen_test_id"=>682})

@@ -1,4 +1,4 @@
-Object.const_set("BoltOnType", Class.new(ApplicationRecord))
+Object.const_set("BoltOnType", Class.new(ActiveRecord::Base))
 BoltOnType.find_or_create_by({"description"=>"Dipstick"})
 BoltOnType.find_or_create_by({"description"=>"Cytology"})
 BoltOnType.find_or_create_by({"description"=>"FISH"})

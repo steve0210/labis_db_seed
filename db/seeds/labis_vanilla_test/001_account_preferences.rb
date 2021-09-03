@@ -1,4 +1,4 @@
-Object.const_set("AccountPreference", Class.new(ApplicationRecord))
+Object.const_set("AccountPreference", Class.new(ActiveRecord::Base))
 AccountPreference.find_or_create_by({"account_id"=>4, "last_updated_by"=>22, "slides_per_block"=>1, "authentication_method"=>"Native"})
 AccountPreference.find_or_create_by({"account_id"=>3, "pin_required"=>true, "last_updated_by"=>18, "slides_per_block"=>1, "authentication_method"=>"Native"})
 AccountPreference.find_or_create_by({"account_id"=>1, "pin_required"=>true, "last_updated_by"=>47, "slide_label_format"=>"numeric", "slides_per_block"=>1, "cassette_print"=>true, "skip_patient_insurance"=>true, "require_external_system_id"=>0, "enable_order_updates"=>true, "specimen_label_format"=>"alpha", "organizational_name"=>"DDAR", "location_name_report"=>"1", "include_location_phone_number"=>true, "slide_printing_order"=>"Specimen, Block, Stain", "use_labis_case_number"=>true, "pap_history_term"=>5, "enable_eorders_interface"=>true, "authentication_method"=>"Native"})

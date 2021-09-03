@@ -1,4 +1,4 @@
-Object.const_set("BusinessReportsAccount", Class.new(ApplicationRecord))
+Object.const_set("BusinessReportsAccount", Class.new(ActiveRecord::Base))
 BusinessReportsAccount.find_or_create_by({"account_id"=>1, "business_report_id"=>10, "last_run_at"=>"2021-06-15 14:23:14 UTC", "user_id"=>47})
 BusinessReportsAccount.find_or_create_by({"account_id"=>1, "business_report_id"=>4, "last_run_at"=>"2021-02-03 12:35:27 UTC", "user_id"=>47})
 BusinessReportsAccount.find_or_create_by({"account_id"=>1, "business_report_id"=>11, "last_run_at"=>"2012-02-01 08:34:16 UTC", "user_id"=>47})

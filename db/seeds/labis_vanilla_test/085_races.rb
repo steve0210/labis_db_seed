@@ -1,4 +1,4 @@
-Object.const_set("Race", Class.new(ApplicationRecord))
+Object.const_set("Race", Class.new(ActiveRecord::Base))
 Race.find_or_create_by({"description"=>"White or Caucasian"})
 Race.find_or_create_by({"description"=>"Native Hawaiian, Pacific Islander"})
 Race.find_or_create_by({"description"=>"Middle Eastern or North African"})

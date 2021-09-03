@@ -1,4 +1,4 @@
-Object.const_set("BusinessReportsUser", Class.new(ApplicationRecord))
+Object.const_set("BusinessReportsUser", Class.new(ActiveRecord::Base))
 BusinessReportsUser.find_or_create_by({"user_id"=>7, "business_report_id"=>10})
 BusinessReportsUser.find_or_create_by({"user_id"=>7, "business_report_id"=>4})
 BusinessReportsUser.find_or_create_by({"user_id"=>5, "business_report_id"=>11})

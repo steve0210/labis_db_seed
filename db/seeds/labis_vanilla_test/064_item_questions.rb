@@ -1,4 +1,4 @@
-Object.const_set("ItemQuestion", Class.new(ApplicationRecord))
+Object.const_set("ItemQuestion", Class.new(ActiveRecord::Base))
 ItemQuestion.find_or_create_by({"questionnaire_type"=>"AdditionalStudyOrder", "question_order"=>1, "question_id"=>1, "category"=>"AdditionalStudyOrder"})
 ItemQuestion.find_or_create_by({"questionnaire_type"=>"SpecimenTestType", "question_order"=>2, "question_id"=>2, "category"=>"AdditionalStudyOrder"})
 ItemQuestion.find_or_create_by({"questionnaire_id"=>17, "questionnaire_type"=>"SpecimenTestType", "question_order"=>3, "question_id"=>3, "category"=>"AdditionalStudyOrder"})

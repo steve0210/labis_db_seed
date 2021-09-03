@@ -1,4 +1,4 @@
-Object.const_set("FlowMarkerType", Class.new(ApplicationRecord))
+Object.const_set("FlowMarkerType", Class.new(ActiveRecord::Base))
 FlowMarkerType.find_or_create_by({"description"=>"Miscellaneous"})
 FlowMarkerType.find_or_create_by({"description"=>"Myeloid Related"})
 FlowMarkerType.find_or_create_by({"description"=>"B-Cell Related"})

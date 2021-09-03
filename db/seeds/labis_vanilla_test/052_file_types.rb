@@ -1,4 +1,4 @@
-Object.const_set("FileType", Class.new(ApplicationRecord))
+Object.const_set("FileType", Class.new(ActiveRecord::Base))
 FileType.find_or_create_by({"description"=>"PDF", "icon"=>"pdf_icon.gif"})
 FileType.find_or_create_by({"description"=>"Text", "icon"=>"text_icon.png"})
 FileType.find_or_create_by({"description"=>"Word", "icon"=>"word_icon.gif"})

@@ -1,1 +1,1 @@
-Object.const_set("CasesPapReflexRule", Class.new(ApplicationRecord))
+Object.const_set("CasesPapReflexRule", Class.new(ActiveRecord::Base))

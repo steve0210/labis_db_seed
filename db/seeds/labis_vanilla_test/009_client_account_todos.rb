@@ -1,4 +1,4 @@
-Object.const_set("ClientAccountTodo", Class.new(ApplicationRecord))
+Object.const_set("ClientAccountTodo", Class.new(ActiveRecord::Base))
 ClientAccountTodo.find_or_create_by({"title"=>"Add Delivery Settings", "description"=>"Add delivery settings for Location: FL-0000021 at 2100 SE 17th Street, Suite 300 Ocala, FL 34474", "important"=>true, "client_account_id"=>2, "link"=>"/accounts/edit_location/view_location_detail?location_id=2"})
 ClientAccountTodo.find_or_create_by({"title"=>"Add Physicians", "description"=>"Add physicians for Location: FL-0000021 at 2100 SE 17th Street, Suite 300 Ocala, FL 34474", "important"=>true, "client_account_id"=>2, "link"=>"/accounts/edit_location/view_location_detail?location_id=2"})
 ClientAccountTodo.find_or_create_by({"title"=>"Add Delivery Settings", "description"=>"Add delivery settings for Location: PA-0000041 at 1811 BETHLEHEM PIKE FLOURTOWN, PA 19335", "important"=>true, "complete"=>true, "client_account_id"=>58, "last_updated_by"=>"MLancello", "link"=>"/accounts/edit_location/view_location_detail?client_account_location_id=58"})

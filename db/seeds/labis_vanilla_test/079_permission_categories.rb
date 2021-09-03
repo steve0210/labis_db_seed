@@ -1,4 +1,4 @@
-Object.const_set("PermissionCategory", Class.new(ApplicationRecord))
+Object.const_set("PermissionCategory", Class.new(ActiveRecord::Base))
 PermissionCategory.find_or_create_by({"description"=>"Case"})
 PermissionCategory.find_or_create_by({"description"=>"Administration"})
 PermissionCategory.find_or_create_by({"description"=>"Laboratory"})

@@ -1,4 +1,4 @@
-Object.const_set("DykFaq", Class.new(ApplicationRecord))
+Object.const_set("DykFaq", Class.new(ActiveRecord::Base))
 DykFaq.find_or_create_by({"faq"=>"B cell gene rearrangement analysis by PCR is an important tool for the diagnosis, staging or monitoring of B cell lymphoproliferative disorders."})
 DykFaq.find_or_create_by({"faq"=>"The increased detection rate of clonal B cell populations provided by PCR is especially beneficial in cases that are diagnostically problematic."})
 DykFaq.find_or_create_by({"faq"=>"PCR detection of B cell rearrangements is extremely valuable in cases with limited diagnostic material such as needle aspirates and cellular fluids."})

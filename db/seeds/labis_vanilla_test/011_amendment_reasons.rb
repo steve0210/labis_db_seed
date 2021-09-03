@@ -1,4 +1,4 @@
-Object.const_set("AmendmentReason", Class.new(ApplicationRecord))
+Object.const_set("AmendmentReason", Class.new(ActiveRecord::Base))
 AmendmentReason.find_or_create_by({"description"=>"Clerical Error", "account_id"=>1, "active"=>true, "default"=>true})
 AmendmentReason.find_or_create_by({"description"=>"Clinical Error", "account_id"=>1, "active"=>true, "default"=>true})
 AmendmentReason.find_or_create_by({"description"=>"Additional diagnostic material", "account_id"=>1, "active"=>true, "default"=>true})

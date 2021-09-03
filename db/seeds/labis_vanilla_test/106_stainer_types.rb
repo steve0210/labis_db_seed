@@ -1,1 +1,1 @@
-Object.const_set("StainerType", Class.new(ApplicationRecord))
+Object.const_set("StainerType", Class.new(ActiveRecord::Base))

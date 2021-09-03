@@ -1,4 +1,4 @@
-Object.const_set("Question", Class.new(ApplicationRecord))
+Object.const_set("Question", Class.new(ActiveRecord::Base))
 Question.find_or_create_by({"question_type_id"=>4, "question_text"=>"Please provide diagnosis under consideration.", "required"=>true})
 Question.find_or_create_by({"question_type_id"=>4, "question_text"=>"Please provide ICD9 under consideration.", "required"=>true, "validation"=>"icd9"})
 Question.find_or_create_by({"question_type_id"=>5, "title"=>"Paraffin Block;Prepared Slide;Other", "question_text"=>"In what form are the specimen(s) being submitted?", "required"=>true})

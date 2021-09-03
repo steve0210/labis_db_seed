@@ -1,4 +1,4 @@
-Object.const_set("SpecimenCycle", Class.new(ApplicationRecord))
+Object.const_set("SpecimenCycle", Class.new(ActiveRecord::Base))
 SpecimenCycle.find_or_create_by({"name"=>"S"})
 SpecimenCycle.find_or_create_by({"name"=>"M"})
 SpecimenCycle.find_or_create_by({"name"=>"L"})

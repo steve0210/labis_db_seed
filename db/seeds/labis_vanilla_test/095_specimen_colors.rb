@@ -1,4 +1,4 @@
-Object.const_set("SpecimenColor", Class.new(ApplicationRecord))
+Object.const_set("SpecimenColor", Class.new(ActiveRecord::Base))
 SpecimenColor.find_or_create_by({"description"=>"colorless"})
 SpecimenColor.find_or_create_by({"description"=>"white/gray"})
 SpecimenColor.find_or_create_by({"description"=>"none"})

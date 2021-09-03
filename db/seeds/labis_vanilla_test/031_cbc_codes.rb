@@ -1,4 +1,4 @@
-Object.const_set("CbcCode", Class.new(ApplicationRecord))
+Object.const_set("CbcCode", Class.new(ActiveRecord::Base))
 CbcCode.find_or_create_by({"code"=>"WBC", "unit"=>"K/ul", "maximum"=>500, "precision"=>1, "order"=>1, "active"=>true, "report_order"=>1})
 CbcCode.find_or_create_by({"code"=>"Hgb", "unit"=>"g/dL", "maximum"=>100, "precision"=>1, "order"=>2, "active"=>true, "report_order"=>7})
 CbcCode.find_or_create_by({"code"=>"Hct", "has_percent"=>true, "maximum"=>100, "precision"=>1, "order"=>3, "active"=>true, "report_order"=>8})

@@ -1,4 +1,4 @@
-Object.const_set("Dyk", Class.new(ApplicationRecord))
+Object.const_set("Dyk", Class.new(ActiveRecord::Base))
 Dyk.find_or_create_by({"dyk_faq_id"=>1, "dyk_type_id"=>1})
 Dyk.find_or_create_by({"dyk_faq_id"=>2, "dyk_type_id"=>1})
 Dyk.find_or_create_by({"dyk_faq_id"=>3, "dyk_type_id"=>1})

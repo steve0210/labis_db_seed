@@ -1,4 +1,4 @@
-Object.const_set("IhcSpecimenType", Class.new(ApplicationRecord))
+Object.const_set("IhcSpecimenType", Class.new(ActiveRecord::Base))
 IhcSpecimenType.find_or_create_by({"description"=>"Tissue"})
 IhcSpecimenType.find_or_create_by({"description"=>"FNA"})
 IhcSpecimenType.find_or_create_by({"description"=>"Smear"})

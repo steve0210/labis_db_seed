@@ -1,4 +1,4 @@
-Object.const_set("SupportCategory", Class.new(ApplicationRecord))
+Object.const_set("SupportCategory", Class.new(ActiveRecord::Base))
 SupportCategory.find_or_create_by({"description"=>"An order I have placed", "email"=>"bestpracticecs@cblpath.com, ClientServices@cblpath.com"})
 SupportCategory.find_or_create_by({"description"=>"Changing my user settings", "email"=>"support@sonichealthcareusa.com"})
 SupportCategory.find_or_create_by({"description"=>"Technical issues with the website", "email"=>"support@sonichealthcareusa.com"})

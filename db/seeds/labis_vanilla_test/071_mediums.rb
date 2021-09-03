@@ -1,4 +1,4 @@
-Object.const_set("Medium", Class.new(ApplicationRecord) { self.table_name = "mediums" })
+Object.const_set("Medium", Class.new(ActiveRecord::Base) { self.table_name = "mediums" })
 Medium.find_or_create_by({"name"=>"Fresh"})
 Medium.find_or_create_by({"name"=>"Slides"})
 Medium.find_or_create_by({"name"=>"Saline"})

@@ -1,4 +1,4 @@
-Object.const_set("User", Class.new(ApplicationRecord))
+Object.const_set("User", Class.new(ActiveRecord::Base))
 User.find_or_create_by({"last_name"=>"Report Delivery Service", "email"=>"LabISReportDeliveryService@cblpath.com", "active"=>true, "maximum_slides"=>0})
 User.find_or_create_by({"password"=>"77ae769ee7bd7eb219fb429961c8b2e8c196c97794e4175a2d9a7d6f567a7829", "password_salt"=>"LUUY", "first_name"=>"Kurt", "last_name"=>"Florez", "account_id"=>1, "email"=>"kflorez@cblpath.com", "active"=>true, "credentials"=>"Super MD", "title"=>"Superfly", "signature_block"=>"Snuka", "pin"=>"1234", "maximum_slides"=>0})
 User.find_or_create_by({"password"=>"70ae36d89d411412209626885eb3d7c0e0a8ef76929cc3ba22ff0baeeba7328a", "password_salt"=>"VRKE", "first_name"=>"Rich", "last_name"=>"Treulieb", "account_id"=>1, "email"=>"rtreulieb@cblpath.com", "password_reset_key"=>"b1e02caa-2da8-11e2-915b-0050568855d0", "password_reset_key_expiration"=>"2012-11-20 10:42:13 UTC", "active"=>true, "pin"=>"1234", "maximum_slides"=>0})

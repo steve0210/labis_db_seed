@@ -1,4 +1,4 @@
-Object.const_set("BusinessReportsUserFavorite", Class.new(ApplicationRecord))
+Object.const_set("BusinessReportsUserFavorite", Class.new(ActiveRecord::Base))
 BusinessReportsUserFavorite.find_or_create_by({"user_id"=>23, "business_report_id"=>6})
 BusinessReportsUserFavorite.find_or_create_by({"user_id"=>22, "business_report_id"=>6})
 BusinessReportsUserFavorite.find_or_create_by({"user_id"=>22, "business_report_id"=>19})

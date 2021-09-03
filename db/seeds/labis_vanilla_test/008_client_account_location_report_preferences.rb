@@ -1,4 +1,4 @@
-Object.const_set("ClientAccountLocationReportPreference", Class.new(ApplicationRecord))
+Object.const_set("ClientAccountLocationReportPreference", Class.new(ActiveRecord::Base))
 ClientAccountLocationReportPreference.find_or_create_by({"client_account_location_id"=>2, "display_requisition_number"=>true})
 ClientAccountLocationReportPreference.find_or_create_by({"client_account_location_id"=>58})
 ClientAccountLocationReportPreference.find_or_create_by({"client_account_location_id"=>115, "show_icd9"=>true, "display_requisition_number"=>true})

@@ -1,4 +1,4 @@
-Object.const_set("SpecimenTypesVariableField", Class.new(ApplicationRecord))
+Object.const_set("SpecimenTypesVariableField", Class.new(ActiveRecord::Base))
 SpecimenTypesVariableField.find_or_create_by({"specimen_type_id"=>1, "variable_field_id"=>1})
 SpecimenTypesVariableField.find_or_create_by({"specimen_type_id"=>1, "variable_field_id"=>2})
 SpecimenTypesVariableField.find_or_create_by({"specimen_type_id"=>1, "variable_field_id"=>9})

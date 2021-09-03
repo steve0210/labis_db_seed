@@ -1,4 +1,4 @@
-Object.const_set("Permission", Class.new(ApplicationRecord))
+Object.const_set("Permission", Class.new(ActiveRecord::Base))
 Permission.find_or_create_by({"description"=>"Sign Out Case", "tooltip"=>"Allows users to sign out cases."})
 Permission.find_or_create_by({"description"=>"Edit Case", "tooltip"=>"Allows users to edit existing case information from case summary."})
 Permission.find_or_create_by({"description"=>"Refer Case", "tooltip"=>"Allows users to refer cases to CBLPath."})

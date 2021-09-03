@@ -1,4 +1,4 @@
-Object.const_set("StainPreorderPreference", Class.new(ApplicationRecord))
+Object.const_set("StainPreorderPreference", Class.new(ActiveRecord::Base))
 StainPreorderPreference.find_or_create_by({"case_type_id"=>18, "specimen_type_id"=>124, "body_site_id"=>256, "client_account_location_id"=>167, "client_account_physician_id"=>405, "account_id"=>69, "created_by"=>431, "active"=>true})
 StainPreorderPreference.find_or_create_by({"case_type_id"=>18, "specimen_type_id"=>124, "body_site_id"=>256, "client_account_location_id"=>167, "client_account_physician_id"=>406, "account_id"=>69, "created_by"=>431, "active"=>true})
 StainPreorderPreference.find_or_create_by({"case_type_id"=>18, "specimen_type_id"=>124, "client_account_location_id"=>167, "client_account_physician_id"=>405, "account_id"=>69, "created_by"=>431, "active"=>true})

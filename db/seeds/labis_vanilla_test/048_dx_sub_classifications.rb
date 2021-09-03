@@ -1,4 +1,4 @@
-Object.const_set("DxSubClassification", Class.new(ApplicationRecord))
+Object.const_set("DxSubClassification", Class.new(ActiveRecord::Base))
 DxSubClassification.find_or_create_by({"description"=>"Mild Atypia"})
 DxSubClassification.find_or_create_by({"description"=>"High Grade"})
 DxSubClassification.find_or_create_by({"description"=>"Severe/CIS Atypia"})

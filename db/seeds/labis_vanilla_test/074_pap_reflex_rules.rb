@@ -1,1 +1,1 @@
-Object.const_set("PapReflexRule", Class.new(ApplicationRecord))
+Object.const_set("PapReflexRule", Class.new(ActiveRecord::Base))

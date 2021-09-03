@@ -1,4 +1,4 @@
-Object.const_set("PapQueue", Class.new(ApplicationRecord))
+Object.const_set("PapQueue", Class.new(ActiveRecord::Base))
 PapQueue.find_or_create_by({"description"=>"Mandatory"})
 PapQueue.find_or_create_by({"description"=>"Retrospective"})
 PapQueue.find_or_create_by({"description"=>"QA"})

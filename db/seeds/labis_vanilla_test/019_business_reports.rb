@@ -1,4 +1,4 @@
-Object.const_set("BusinessReport", Class.new(ApplicationRecord))
+Object.const_set("BusinessReport", Class.new(ActiveRecord::Base))
 BusinessReport.find_or_create_by({"name"=>"Cassette Totals per Case", "description"=>"Provides a list of cassette volumes per case.", "options"=>"cassette_totals_per_case", "reporting_options"=>"start_date,end_date,csv,html,pdf"})
 BusinessReport.find_or_create_by({"name"=>"Accession QA Log", "description"=>"Displays the QA log which contains the accessioning summary for all cases received during a specific date range", "options"=>"quality_assurance_log", "reporting_options"=>"csv,start_date,end_date,html,pdf,case_type_filter"})
 BusinessReport.find_or_create_by({"name"=>"TC Clients - TAT Report", "description"=>"TAT Report for TC clients showing a breakdown of turn around time by Laboratory TAT and Pathology TAT.", "options"=>"tat_tech_path", "reporting_options"=>"location,start_date,end_date,csv,html,pdf"})
