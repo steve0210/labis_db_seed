@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "labis_db_seed"
-set :repo_url, "git@github.com:SHUSA/#{fetch :application}.git"
+set :repo_url, "git@github.com:steve0210/#{fetch :application}.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
@@ -21,7 +21,7 @@ set :deploy_to, "/var/www/#{fetch :application}"
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/database.yml", "config/master.key"
+append :linked_files, "config/database.yml"
 
 # Default value for linked_dirs is []
 append :linked_dirs, "log"
