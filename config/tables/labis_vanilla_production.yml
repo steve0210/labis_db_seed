@@ -33,7 +33,6 @@ tables:
   - conditions
   - configurables
   - control_code_types
-  - courier_types
   - cpt_billing_unit_rules
   - cpt_code_rules
   - cytology_descriptions
