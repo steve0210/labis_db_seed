@@ -1,0 +1,6 @@
+Object.const_set("QuestionType", Class.new(ApplicationRecord))
+QuestionType.find_or_create_by({"description"=>"Radio"})
+QuestionType.find_or_create_by({"description"=>"Checkbox"})
+QuestionType.find_or_create_by({"description"=>"TextArea"})
+QuestionType.find_or_create_by({"description"=>"TextField"})
+QuestionType.find_or_create_by({"description"=>"Select"})

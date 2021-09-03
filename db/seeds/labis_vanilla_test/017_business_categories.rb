@@ -1,0 +1,7 @@
+Object.const_set("BusinessCategory", Class.new(ApplicationRecord))
+BusinessCategory.find_or_create_by({"description"=>"All"})
+BusinessCategory.find_or_create_by({"description"=>"Client Center"})
+BusinessCategory.find_or_create_by({"description"=>"Lab Processing"})
+BusinessCategory.find_or_create_by({"description"=>"QA Center"})
+BusinessCategory.find_or_create_by({"description"=>"Pathology"})
+BusinessCategory.find_or_create_by({"description"=>"Billing"})

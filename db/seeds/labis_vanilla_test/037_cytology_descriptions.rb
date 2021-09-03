@@ -1,0 +1,7 @@
+Object.const_set("CytologyDescription", Class.new(ApplicationRecord))
+CytologyDescription.find_or_create_by({"name"=>"Cellularity", "order"=>1, "active"=>true, "is_required"=>true})
+CytologyDescription.find_or_create_by({"name"=>"Myelopoiesis", "order"=>2, "active"=>true})
+CytologyDescription.find_or_create_by({"name"=>"Erythropoiesis", "order"=>3, "active"=>true})
+CytologyDescription.find_or_create_by({"name"=>"Megakaryocytes", "order"=>4, "active"=>true})
+CytologyDescription.find_or_create_by({"name"=>"Other Findings", "order"=>5, "active"=>true})
+CytologyDescription.find_or_create_by({"name"=>"Iron", "order"=>6, "active"=>true})

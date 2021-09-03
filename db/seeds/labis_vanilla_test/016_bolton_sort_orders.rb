@@ -1,0 +1,6 @@
+Object.const_set("BoltonSortOrder", Class.new(ApplicationRecord))
+BoltonSortOrder.find_or_create_by({"case_type_id"=>23, "bolton_type_id"=>2301, "sort_order"=>3})
+BoltonSortOrder.find_or_create_by({"case_type_id"=>23, "bolton_type_id"=>6, "sort_order"=>2})
+BoltonSortOrder.find_or_create_by({"case_type_id"=>23, "bolton_type_id"=>2300, "sort_order"=>3})
+BoltonSortOrder.find_or_create_by({"case_type_id"=>23, "bolton_type_id"=>7, "sort_order"=>1})
+BoltonSortOrder.find_or_create_by({"case_type_id"=>23, "bolton_type_id"=>2302, "sort_order"=>4})

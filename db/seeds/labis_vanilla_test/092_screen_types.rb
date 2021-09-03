@@ -1,0 +1,8 @@
+Object.const_set("ScreenType", Class.new(ApplicationRecord))
+ScreenType.find_or_create_by({"description"=>"Initial"})
+ScreenType.find_or_create_by({"description"=>"Mandatory", "pap_queue_id"=>1})
+ScreenType.find_or_create_by({"description"=>"User Requested", "pap_queue_id"=>1})
+ScreenType.find_or_create_by({"description"=>"Random QA", "pap_queue_id"=>3})
+ScreenType.find_or_create_by({"description"=>"Pathologist", "pap_queue_id"=>4})
+ScreenType.find_or_create_by({"description"=>"HPV", "pap_queue_id"=>5})
+ScreenType.find_or_create_by({"description"=>"Retrospective", "pap_queue_id"=>2})

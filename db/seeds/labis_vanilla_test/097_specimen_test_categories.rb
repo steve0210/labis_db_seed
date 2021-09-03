@@ -1,0 +1,6 @@
+Object.const_set("SpecimenTestCategory", Class.new(ApplicationRecord))
+SpecimenTestCategory.find_or_create_by({"description"=>"Test"})
+SpecimenTestCategory.find_or_create_by({"description"=>"External"})
+SpecimenTestCategory.find_or_create_by({"description"=>"Special"})
+SpecimenTestCategory.find_or_create_by({"description"=>"Recut"})
+SpecimenTestCategory.find_or_create_by({"description"=>"pc"})

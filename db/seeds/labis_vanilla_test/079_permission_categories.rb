@@ -1,0 +1,5 @@
+Object.const_set("PermissionCategory", Class.new(ApplicationRecord))
+PermissionCategory.find_or_create_by({"description"=>"Case"})
+PermissionCategory.find_or_create_by({"description"=>"Administration"})
+PermissionCategory.find_or_create_by({"description"=>"Laboratory"})
+PermissionCategory.find_or_create_by({"description"=>"Pathology"})

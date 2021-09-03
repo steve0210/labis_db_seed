@@ -1,0 +1,8 @@
+Object.const_set("FlowPopulationType", Class.new(ApplicationRecord))
+FlowPopulationType.find_or_create_by({"description"=>"Lymphoid Cells"})
+FlowPopulationType.find_or_create_by({"description"=>"Myeloid Cells"})
+FlowPopulationType.find_or_create_by({"description"=>"Monocytic Cells"})
+FlowPopulationType.find_or_create_by({"description"=>"Plasma Cells"})
+FlowPopulationType.find_or_create_by({"description"=>"Debris"})
+FlowPopulationType.find_or_create_by({"description"=>"Morphology"})
+FlowPopulationType.find_or_create_by({"description"=>"Blasts"})

@@ -1,0 +1,6 @@
+Object.const_set("SupportCategory", Class.new(ApplicationRecord))
+SupportCategory.find_or_create_by({"description"=>"An order I have placed", "email"=>"bestpracticecs@cblpath.com, ClientServices@cblpath.com"})
+SupportCategory.find_or_create_by({"description"=>"Changing my user settings", "email"=>"support@sonichealthcareusa.com"})
+SupportCategory.find_or_create_by({"description"=>"Technical issues with the website", "email"=>"support@sonichealthcareusa.com"})
+SupportCategory.find_or_create_by({"description"=>"Submitting an order", "email"=>"support@sonichealthcareusa.com"})
+SupportCategory.find_or_create_by({"description"=>"A case", "email"=>"bestpracticecs@cblpath.com, ClientServices@cblpath.com, billingNY@cblpath.com"})

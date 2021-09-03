@@ -1,0 +1,5 @@
+Object.const_set("DefaultQaCategory", Class.new(ApplicationRecord))
+DefaultQaCategory.find_or_create_by({"description"=>"Requisition Issues"})
+DefaultQaCategory.find_or_create_by({"description"=>"Data Entry Issues"})
+DefaultQaCategory.find_or_create_by({"description"=>"Specimen Processing"})
+DefaultQaCategory.find_or_create_by({"description"=>"Lab Processing Errors"})

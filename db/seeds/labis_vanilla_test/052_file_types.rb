@@ -1,0 +1,8 @@
+Object.const_set("FileType", Class.new(ApplicationRecord))
+FileType.find_or_create_by({"description"=>"PDF", "icon"=>"pdf_icon.gif"})
+FileType.find_or_create_by({"description"=>"Text", "icon"=>"text_icon.png"})
+FileType.find_or_create_by({"description"=>"Word", "icon"=>"word_icon.gif"})
+FileType.find_or_create_by({"description"=>"Excel", "icon"=>"excel_icon.gif"})
+FileType.find_or_create_by({"description"=>"CSV", "icon"=>"text_icon.png"})
+FileType.find_or_create_by({"description"=>"Image", "icon"=>"Photograph.png"})
+FileType.find_or_create_by({"description"=>"HTML", "icon"=>"Globe.png"})

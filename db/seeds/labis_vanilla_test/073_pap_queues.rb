@@ -1,0 +1,6 @@
+Object.const_set("PapQueue", Class.new(ApplicationRecord))
+PapQueue.find_or_create_by({"description"=>"Mandatory"})
+PapQueue.find_or_create_by({"description"=>"Retrospective"})
+PapQueue.find_or_create_by({"description"=>"QA"})
+PapQueue.find_or_create_by({"description"=>"Pathologist"})
+PapQueue.find_or_create_by({"description"=>"HPV"})

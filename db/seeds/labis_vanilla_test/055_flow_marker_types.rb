@@ -1,0 +1,5 @@
+Object.const_set("FlowMarkerType", Class.new(ApplicationRecord))
+FlowMarkerType.find_or_create_by({"description"=>"Miscellaneous"})
+FlowMarkerType.find_or_create_by({"description"=>"Myeloid Related"})
+FlowMarkerType.find_or_create_by({"description"=>"B-Cell Related"})
+FlowMarkerType.find_or_create_by({"description"=>"T-Cell Related"})

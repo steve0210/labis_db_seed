@@ -1,0 +1,8 @@
+Object.const_set("DxSubClassification", Class.new(ApplicationRecord))
+DxSubClassification.find_or_create_by({"description"=>"Mild Atypia"})
+DxSubClassification.find_or_create_by({"description"=>"High Grade"})
+DxSubClassification.find_or_create_by({"description"=>"Severe/CIS Atypia"})
+DxSubClassification.find_or_create_by({"description"=>"Low Grade"})
+DxSubClassification.find_or_create_by({"description"=>"Renal Path"})
+DxSubClassification.find_or_create_by({"description"=>"Benign"})
+DxSubClassification.find_or_create_by({"description"=>"Moderate Atypia"})

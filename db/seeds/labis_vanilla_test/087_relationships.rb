@@ -1,0 +1,6 @@
+Object.const_set("Relationship", Class.new(ApplicationRecord))
+Relationship.find_or_create_by({"description"=>"Self"})
+Relationship.find_or_create_by({"description"=>"Spouse"})
+Relationship.find_or_create_by({"description"=>"Parent"})
+Relationship.find_or_create_by({"description"=>"Child"})
+Relationship.find_or_create_by({"description"=>"Other"})
