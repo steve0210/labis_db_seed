@@ -1,4 +1,4 @@
-Object.const_set("Gender", Class.new(ApplicationRecord))
+Object.const_set("Gender", Class.new(ActiveRecord::Base))
 Gender.find_or_create_by({"description"=>"M", "value"=>"m"})
 Gender.find_or_create_by({"description"=>"F", "value"=>"f"})
 Gender.find_or_create_by({"description"=>"H", "value"=>"h"})

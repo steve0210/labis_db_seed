@@ -1,4 +1,4 @@
-Object.const_set("VariableField", Class.new(ApplicationRecord))
+Object.const_set("VariableField", Class.new(ActiveRecord::Base))
 VariableField.find_or_create_by({"control_code_type_id"=>2, "variable"=>"<$CassetteLabel$>"})
 VariableField.find_or_create_by({"control_code_type_id"=>2, "variable"=>"<$Cassette$>"})
 VariableField.find_or_create_by({"control_code_type_id"=>2, "variable"=>"<$CassetteColor$>"})

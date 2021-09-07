@@ -1,4 +1,4 @@
-Object.const_set("AccountsCaseType", Class.new(ApplicationRecord))
+Object.const_set("AccountsCaseType", Class.new(ActiveRecord::Base))
 AccountsCaseType.find_or_create_by({"account_id"=>1, "case_type_id"=>8})
 AccountsCaseType.find_or_create_by({"account_id"=>1, "case_type_id"=>2})
 AccountsCaseType.find_or_create_by({"account_id"=>1, "case_type_id"=>1})

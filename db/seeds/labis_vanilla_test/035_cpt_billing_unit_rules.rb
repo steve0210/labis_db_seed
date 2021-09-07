@@ -1,4 +1,4 @@
-Object.const_set("CptBillingUnitRule", Class.new(ApplicationRecord))
+Object.const_set("CptBillingUnitRule", Class.new(ActiveRecord::Base))
 CptBillingUnitRule.find_or_create_by({"cpt_code"=>"88342", "first_unit_count"=>1, "start_date"=>"2015-01-01", "active"=>true, "name"=>"2015 IHC 88342", "account_id"=>1, "first_cpt_code"=>"88342", "remaining_cpt_code"=>"88341", "per_specimen"=>true})
 CptBillingUnitRule.find_or_create_by({"cpt_code"=>"88365", "first_unit_count"=>1, "start_date"=>"2015-01-01", "active"=>true, "name"=>"2015 IHC 88365", "account_id"=>1, "first_cpt_code"=>"88365", "remaining_cpt_code"=>"88364", "per_specimen"=>true})
 CptBillingUnitRule.find_or_create_by({"cpt_code"=>"88367", "first_unit_count"=>1, "start_date"=>"2015-01-01", "active"=>true, "name"=>"2015 IHC 88367", "account_id"=>1, "first_cpt_code"=>"88367", "remaining_cpt_code"=>"88373", "per_specimen"=>true})

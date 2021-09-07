@@ -1,4 +1,4 @@
-Object.const_set("DeliveryMethod", Class.new(ApplicationRecord))
+Object.const_set("DeliveryMethod", Class.new(ActiveRecord::Base))
 DeliveryMethod.find_or_create_by({"name"=>"Remote Print", "validation_expression"=>"None", "is_active"=>true, "tps_id"=>"f9c9f777-f422-4926-8024-0ffc9eae8fb6"})
 DeliveryMethod.find_or_create_by({"name"=>"IP Remote Print", "validation_expression"=>"None", "is_active"=>true, "tps_id"=>"a9f621d2-9845-46d6-9e6a-7f492766f9d8"})
 DeliveryMethod.find_or_create_by({"name"=>"Print", "validation_expression"=>"None", "is_user_configurable"=>true, "is_active"=>true, "print_required"=>true})

@@ -1,4 +1,4 @@
-Object.const_set("IhcAlgorithm", Class.new(ApplicationRecord))
+Object.const_set("IhcAlgorithm", Class.new(ActiveRecord::Base))
 IhcAlgorithm.find_or_create_by({"description"=>"IHC Nuclear v1", "algorithm_type"=>"Nuclear"})
 IhcAlgorithm.find_or_create_by({"description"=>"IHC ER Breast Dako Clone1D5 v1", "algorithm_type"=>"Nuclear"})
 IhcAlgorithm.find_or_create_by({"description"=>"IHC PR Breast Dako ClonePgR636 v1", "algorithm_type"=>"Nuclear"})

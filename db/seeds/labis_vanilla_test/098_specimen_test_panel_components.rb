@@ -1,4 +1,4 @@
-Object.const_set("SpecimenTestPanelComponent", Class.new(ApplicationRecord))
+Object.const_set("SpecimenTestPanelComponent", Class.new(ActiveRecord::Base))
 SpecimenTestPanelComponent.find_or_create_by({"specimen_test_panel_id"=>357, "specimen_test_id"=>756, "units"=>1})
 SpecimenTestPanelComponent.find_or_create_by({"specimen_test_panel_id"=>357, "specimen_test_id"=>752, "units"=>6})
 SpecimenTestPanelComponent.find_or_create_by({"specimen_test_panel_id"=>357, "specimen_test_id"=>2313, "units"=>6})

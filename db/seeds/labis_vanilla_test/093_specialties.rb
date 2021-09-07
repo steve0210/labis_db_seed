@@ -1,4 +1,4 @@
-Object.const_set("Specialty", Class.new(ApplicationRecord))
+Object.const_set("Specialty", Class.new(ActiveRecord::Base))
 Specialty.find_or_create_by({"description"=>"Hematology"})
 Specialty.find_or_create_by({"description"=>"Nurse Practitioner"})
 Specialty.find_or_create_by({"description"=>"Osteopathic Manipulative Therapy"})

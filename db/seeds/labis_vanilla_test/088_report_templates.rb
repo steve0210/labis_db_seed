@@ -1,4 +1,4 @@
-Object.const_set("ReportTemplate", Class.new(ApplicationRecord))
+Object.const_set("ReportTemplate", Class.new(ActiveRecord::Base))
 ReportTemplate.find_or_create_by({"description"=>"GI Report - 102", "template_guid"=>"623B64AB-6FBE-40CC-AD7F-4DAA455D8149"})
 ReportTemplate.find_or_create_by({"description"=>"Immunohistochemical (IHC)", "template_guid"=>"FC47A12E-7BE7-DF11-9541-000BDB90B5AB", "display_name"=>"CBL IHC Report"})
 ReportTemplate.find_or_create_by({"description"=>"ISH", "template_guid"=>"D0C962AC-83E7-DF11-9541-000BDB90B5AB", "display_name"=>"CBL ISH Report"})

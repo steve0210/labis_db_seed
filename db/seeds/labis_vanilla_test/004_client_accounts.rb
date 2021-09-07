@@ -1,4 +1,4 @@
-Object.const_set("ClientAccount", Class.new(ApplicationRecord))
+Object.const_set("ClientAccount", Class.new(ActiveRecord::Base))
 ClientAccount.find_or_create_by({"account_id"=>1, "account_name"=>"CBLPath Test Delivery", "account_number"=>"FL-000002", "primary_contact"=>"Steve Dave", "phone"=>"3527329990", "fax"=>"8663292252", "active"=>true, "location_seed"=>2, "matchable"=>true})
 ClientAccount.find_or_create_by({"account_id"=>25, "account_name"=>"Test", "account_number"=>"PA-000004", "primary_contact"=>"TEST", "phone"=>"6102345678", "active"=>true, "location_seed"=>2, "matchable"=>true})
 ClientAccount.find_or_create_by({"account_id"=>25, "account_name"=>"Doctor Test", "account_number"=>"PA-000005", "primary_contact"=>"Gerald Bertiger", "phone"=>"2154020800", "active"=>true, "location_seed"=>2, "matchable"=>true})

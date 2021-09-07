@@ -1,1 +1,1 @@
-Object.const_set("FlowGroup", Class.new(ApplicationRecord))
+Object.const_set("FlowGroup", Class.new(ActiveRecord::Base))

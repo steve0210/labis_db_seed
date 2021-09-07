@@ -1,4 +1,4 @@
-Object.const_set("FlowIntensity", Class.new(ApplicationRecord))
+Object.const_set("FlowIntensity", Class.new(ActiveRecord::Base))
 FlowIntensity.find_or_create_by({"description"=>"Bright"})
 FlowIntensity.find_or_create_by({"description"=>"Dim"})
 FlowIntensity.find_or_create_by({"description"=>"Dim-Moderate"})

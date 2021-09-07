@@ -1,4 +1,4 @@
-Object.const_set("IhcTransportType", Class.new(ApplicationRecord))
+Object.const_set("IhcTransportType", Class.new(ActiveRecord::Base))
 IhcTransportType.find_or_create_by({"description"=>"Paraffin Embedded"})
 IhcTransportType.find_or_create_by({"description"=>"Formalin Fixed"})
 IhcTransportType.find_or_create_by({"description"=>"Alcohol Fixed"})

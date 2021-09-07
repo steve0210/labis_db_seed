@@ -1,1 +1,1 @@
-Object.const_set("WorkStation", Class.new(ApplicationRecord))
+Object.const_set("WorkStation", Class.new(ActiveRecord::Base))

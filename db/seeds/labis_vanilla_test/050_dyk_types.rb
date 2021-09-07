@@ -1,4 +1,4 @@
-Object.const_set("DykType", Class.new(ApplicationRecord))
+Object.const_set("DykType", Class.new(ActiveRecord::Base))
 DykType.find_or_create_by({"category"=>"Dashboard", "section"=>"Lab"})
 DykType.find_or_create_by({"category"=>"Dashboard", "section"=>"Pathology"})
 DykType.find_or_create_by({"category"=>"Dashboard", "section"=>"Client"})

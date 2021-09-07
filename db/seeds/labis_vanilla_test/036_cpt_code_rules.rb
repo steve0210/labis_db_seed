@@ -1,4 +1,4 @@
-Object.const_set("CptCodeRule", Class.new(ApplicationRecord))
+Object.const_set("CptCodeRule", Class.new(ActiveRecord::Base))
 CptCodeRule.find_or_create_by({"name"=>"fcin - Rule 1", "originating_test"=>1668, "swapping_tests"=>"733", "control_code_id"=>34873, "account_id"=>99, "created_by"=>705, "rule_number"=>2})
 CptCodeRule.find_or_create_by({"name"=>"fcis - Rule 1", "originating_test"=>1668, "swapping_tests"=>"733", "control_code_id"=>34874, "account_id"=>99, "created_by"=>705, "rule_number"=>2})
 CptCodeRule.find_or_create_by({"name"=>"anglip - Rule 1", "originating_test"=>1668, "swapping_tests"=>"733", "control_code_id"=>34890, "account_id"=>99, "created_by"=>705, "rule_number"=>2})

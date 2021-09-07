@@ -1,4 +1,4 @@
-Object.const_set("DefaultRolesPermission", Class.new(ApplicationRecord))
+Object.const_set("DefaultRolesPermission", Class.new(ActiveRecord::Base))
 DefaultRolesPermission.find_or_create_by({"default_role_id"=>1, "permission_id"=>20})
 DefaultRolesPermission.find_or_create_by({"default_role_id"=>2, "permission_id"=>7})
 DefaultRolesPermission.find_or_create_by({"default_role_id"=>2, "permission_id"=>10})

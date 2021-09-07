@@ -1,4 +1,4 @@
-Object.const_set("PermissionsRole", Class.new(ApplicationRecord))
+Object.const_set("PermissionsRole", Class.new(ActiveRecord::Base))
 PermissionsRole.find_or_create_by({"role_id"=>1, "permission_id"=>20})
 PermissionsRole.find_or_create_by({"role_id"=>2, "permission_id"=>7})
 PermissionsRole.find_or_create_by({"role_id"=>2, "permission_id"=>10})

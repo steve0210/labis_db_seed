@@ -1,4 +1,4 @@
-Object.const_set("BusinessCategoriesBusinessReport", Class.new(ApplicationRecord))
+Object.const_set("BusinessCategoriesBusinessReport", Class.new(ActiveRecord::Base))
 BusinessCategoriesBusinessReport.find_or_create_by({"business_category_id"=>3, "business_report_id"=>10})
 BusinessCategoriesBusinessReport.find_or_create_by({"business_category_id"=>2, "business_report_id"=>2})
 BusinessCategoriesBusinessReport.find_or_create_by({"business_category_id"=>3, "business_report_id"=>2})

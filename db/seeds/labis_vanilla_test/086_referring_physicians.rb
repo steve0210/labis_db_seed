@@ -1,4 +1,4 @@
-Object.const_set("ReferringPhysician", Class.new(ApplicationRecord))
+Object.const_set("ReferringPhysician", Class.new(ActiveRecord::Base))
 ReferringPhysician.find_or_create_by({"first_name"=>"Dave", "middle_initial"=>"J", "last_name"=>"Barry", "client_account_id"=>2, "address_one"=>"6532 East Apple Drive", "address_two"=>"Suite 3", "city"=>"Gainesville", "is_active"=>true, "state"=>"FL", "zip"=>"34474", "fax"=>"8663292252", "is_fax"=>true, "active"=>true})
 ReferringPhysician.find_or_create_by({"first_name"=>"John", "last_name"=>"Smtih", "client_account_id"=>2, "is_active"=>true, "fax"=>"2223334444", "is_fax"=>true, "active"=>true})
 ReferringPhysician.find_or_create_by({"first_name"=>"William", "middle_initial"=>"M", "last_name"=>"Silverman", "client_account_id"=>53, "is_active"=>true, "active"=>true, "tps_id"=>"451078cb-8bec-4a68-92bb-d1f36ea3efdb"})

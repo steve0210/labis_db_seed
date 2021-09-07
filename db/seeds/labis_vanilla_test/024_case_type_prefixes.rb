@@ -1,4 +1,4 @@
-Object.const_set("CaseTypePrefix", Class.new(ApplicationRecord))
+Object.const_set("CaseTypePrefix", Class.new(ActiveRecord::Base))
 CaseTypePrefix.find_or_create_by({"description"=>"C", "tps_id"=>"E5CB3999-AC3E-4541-8E1B-45DED5380075"})
 CaseTypePrefix.find_or_create_by({"description"=>"M", "tps_id"=>"0EC224A3-80B6-49CC-B86C-C3F79BEE5933"})
 CaseTypePrefix.find_or_create_by({"description"=>"C", "tps_id"=>"E5CB3999-AC3E-4541-8E1B-45DED5380075"})

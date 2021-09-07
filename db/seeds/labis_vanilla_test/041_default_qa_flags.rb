@@ -1,4 +1,4 @@
-Object.const_set("DefaultQaFlag", Class.new(ApplicationRecord))
+Object.const_set("DefaultQaFlag", Class.new(ActiveRecord::Base))
 DefaultQaFlag.find_or_create_by({"default_qa_category_id"=>1, "title"=>"Requesting Physician Information", "description"=>"Requesting physician's information is missing, illegible, or incomplete", "suggested_resolution"=>"Contact physician to obtain correct information", "pre_analytical"=>true, "active"=>true})
 DefaultQaFlag.find_or_create_by({"default_qa_category_id"=>1, "title"=>"Patient Demographics", "description"=>"Patient information missing, illegible, or incomplete", "suggested_resolution"=>"Contact client to obtain correct patient information", "pre_analytical"=>true, "active"=>true})
 DefaultQaFlag.find_or_create_by({"default_qa_category_id"=>1, "title"=>"Clinical Information", "description"=>"Clinical information is illegible or incomplete", "suggested_resolution"=>"Contact client to obtain accurate clinical information", "pre_analytical"=>true, "active"=>true})

@@ -1,4 +1,4 @@
-Object.const_set("SpecimenTestType", Class.new(ApplicationRecord))
+Object.const_set("SpecimenTestType", Class.new(ActiveRecord::Base))
 SpecimenTestType.find_or_create_by({"description"=>"Recut", "title"=>"Recut"})
 SpecimenTestType.find_or_create_by({"description"=>"Breast", "title"=>"Breast"})
 SpecimenTestType.find_or_create_by({"description"=>"Consult", "title"=>"Consult"})

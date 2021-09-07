@@ -1,4 +1,4 @@
-Object.const_set("BodySite", Class.new(ApplicationRecord))
+Object.const_set("BodySite", Class.new(ActiveRecord::Base))
 BodySite.find_or_create_by({"description"=>"Abdomen", "malignant"=>"195.2", "benign"=>"229.8", "unspecified"=>"239.89", "insitu"=>"234.8", "account_id"=>1})
 BodySite.find_or_create_by({"description"=>"Abdomen Skin", "malignant"=>"173.50", "benign"=>"216.5", "unspecified"=>"239.2", "insitu"=>"232.5", "account_id"=>1})
 BodySite.find_or_create_by({"description"=>"Adenoid(s)", "malignant"=>"147.1", "benign"=>"210.7", "unspecified"=>"239.0", "insitu"=>"230.0", "account_id"=>1})

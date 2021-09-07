@@ -1,1 +1,1 @@
-Object.const_set("SpecRecCountTypeType", Class.new(ApplicationRecord))
+Object.const_set("SpecRecCountTypeType", Class.new(ActiveRecord::Base))

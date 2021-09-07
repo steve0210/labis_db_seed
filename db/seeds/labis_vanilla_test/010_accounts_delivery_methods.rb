@@ -1,4 +1,4 @@
-Object.const_set("AccountsDeliveryMethod", Class.new(ApplicationRecord))
+Object.const_set("AccountsDeliveryMethod", Class.new(ActiveRecord::Base))
 AccountsDeliveryMethod.find_or_create_by({"account_id"=>1, "delivery_method_id"=>1})
 AccountsDeliveryMethod.find_or_create_by({"account_id"=>1, "delivery_method_id"=>2})
 AccountsDeliveryMethod.find_or_create_by({"account_id"=>1, "delivery_method_id"=>3})

@@ -1,1 +1,1 @@
-Object.const_set("ListValue", Class.new(ApplicationRecord))
+Object.const_set("ListValue", Class.new(ActiveRecord::Base))

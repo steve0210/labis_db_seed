@@ -1,4 +1,4 @@
-Object.const_set("SupportUser", Class.new(ApplicationRecord))
+Object.const_set("SupportUser", Class.new(ActiveRecord::Base))
 SupportUser.find_or_create_by({"username"=>"JJones", "first_name"=>"Jason", "last_name"=>"Jones", "password"=>"c5d627d3f76afbd80e70e465e6ccd878ac41f33ee06f173e6a67c12078524937", "password_salt"=>"l@b1$salt", "email"=>"jjones@cblpath.com"})
 SupportUser.find_or_create_by({"username"=>"SReynolds", "first_name"=>"Scott", "last_name"=>"Reynolds", "password"=>"c5d627d3f76afbd80e70e465e6ccd878ac41f33ee06f173e6a67c12078524937", "password_salt"=>"l@b1$salt", "email"=>"sreynolds@cblpath.com"})
 SupportUser.find_or_create_by({"username"=>"KFlorez", "first_name"=>"Kurt", "last_name"=>"Florez", "password"=>"ac6ee8ebec3dc73e5fb2e0259e0087ceac57ccb94cfb3ebc40ee0c0cb95e1d72", "password_salt"=>"l@b1$salt", "email"=>"kflorez@cblpath.com", "password_reset_key"=>"c78d588c-8df7-11df-a9cb-005056887223", "password_reset_key_expiration"=>"2010-07-19 16:55:18 UTC"})

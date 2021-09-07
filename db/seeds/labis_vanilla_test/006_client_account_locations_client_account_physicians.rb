@@ -1,4 +1,4 @@
-Object.const_set("ClientAccountLocationsClientAccountPhysician", Class.new(ApplicationRecord))
+Object.const_set("ClientAccountLocationsClientAccountPhysician", Class.new(ActiveRecord::Base))
 ClientAccountLocationsClientAccountPhysician.find_or_create_by({"client_account_location_id"=>2, "client_account_physician_id"=>1})
 ClientAccountLocationsClientAccountPhysician.find_or_create_by({"client_account_location_id"=>2, "client_account_physician_id"=>2})
 ClientAccountLocationsClientAccountPhysician.find_or_create_by({"client_account_location_id"=>58, "client_account_physician_id"=>155})

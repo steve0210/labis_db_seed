@@ -1,4 +1,4 @@
-Object.const_set("State", Class.new(ApplicationRecord))
+Object.const_set("State", Class.new(ActiveRecord::Base))
 State.find_or_create_by({"name"=>"ALABAMA", "abbreviation"=>"AL"})
 State.find_or_create_by({"name"=>"ALASKA", "abbreviation"=>"AK"})
 State.find_or_create_by({"name"=>"ARIZONA", "abbreviation"=>"AZ"})

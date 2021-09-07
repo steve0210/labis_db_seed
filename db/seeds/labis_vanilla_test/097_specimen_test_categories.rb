@@ -1,4 +1,4 @@
-Object.const_set("SpecimenTestCategory", Class.new(ApplicationRecord))
+Object.const_set("SpecimenTestCategory", Class.new(ActiveRecord::Base))
 SpecimenTestCategory.find_or_create_by({"description"=>"Test"})
 SpecimenTestCategory.find_or_create_by({"description"=>"External"})
 SpecimenTestCategory.find_or_create_by({"description"=>"Special"})

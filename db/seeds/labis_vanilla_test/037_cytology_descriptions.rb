@@ -1,4 +1,4 @@
-Object.const_set("CytologyDescription", Class.new(ApplicationRecord))
+Object.const_set("CytologyDescription", Class.new(ActiveRecord::Base))
 CytologyDescription.find_or_create_by({"name"=>"Cellularity", "order"=>1, "active"=>true, "is_required"=>true})
 CytologyDescription.find_or_create_by({"name"=>"Myelopoiesis", "order"=>2, "active"=>true})
 CytologyDescription.find_or_create_by({"name"=>"Erythropoiesis", "order"=>3, "active"=>true})

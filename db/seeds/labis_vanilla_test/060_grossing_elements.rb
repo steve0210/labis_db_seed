@@ -1,4 +1,4 @@
-Object.const_set("GrossingElement", Class.new(ApplicationRecord))
+Object.const_set("GrossingElement", Class.new(ActiveRecord::Base))
 GrossingElement.find_or_create_by({"name"=>"specimen size", "element_type"=>"text field:small", "variable_field_id"=>9})
 GrossingElement.find_or_create_by({"name"=>"specimen color", "element_type"=>"select:color", "variable_field_id"=>5})
 GrossingElement.find_or_create_by({"name"=>"number of pieces", "element_type"=>"text field:small:number", "variable_field_id"=>8})

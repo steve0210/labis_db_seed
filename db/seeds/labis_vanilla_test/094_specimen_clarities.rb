@@ -1,4 +1,4 @@
-Object.const_set("SpecimenClarity", Class.new(ApplicationRecord))
+Object.const_set("SpecimenClarity", Class.new(ActiveRecord::Base))
 SpecimenClarity.find_or_create_by({"description"=>"cloudy"})
 SpecimenClarity.find_or_create_by({"description"=>"other"})
 SpecimenClarity.find_or_create_by({"description"=>"turbid"})

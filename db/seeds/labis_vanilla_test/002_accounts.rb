@@ -1,4 +1,4 @@
-Object.const_set("Account", Class.new(ApplicationRecord))
+Object.const_set("Account", Class.new(ActiveRecord::Base))
 Account.find_or_create_by({"account_name"=>"CBLPath IT", "first_name"=>"CBL", "last_name"=>"SUPPORT", "email"=>"cblsupport@cblpath.com", "phone"=>"3527329990", "active"=>true, "client_account_seed"=>5, "lab_tat"=>"1;Day(s)", "pathology_tat"=>"1;Day(s)", "billing_tat"=>"1;Day(s)", "location_seed"=>3})
 Account.find_or_create_by({"account_name"=>"McClain Laboratories, LLC", "first_name"=>"Steve", "middle_initial"=>"A", "last_name"=>"McClain", "email"=>"stevem@mcclainlab.com", "phone"=>"6313614000", "active"=>true, "client_account_seed"=>1, "lab_tat"=>"1;Day(s)", "pathology_tat"=>"1;Day(s)", "billing_tat"=>"1;Day(s)", "location_seed"=>2})
 Account.find_or_create_by({"account_name"=>"Dermatique", "first_name"=>"Steve", "middle_initial"=>"A", "last_name"=>"McClain", "email"=>"stevem@mcclainlab.com", "phone"=>"6312651351", "client_account_seed"=>2, "lab_tat"=>"1;Day(s)", "pathology_tat"=>"1;Day(s)", "billing_tat"=>"1;Day(s)", "location_seed"=>2, "tps_id"=>"E8813DAE-118E-4F3A-8862-FDD2AB68C78E"})

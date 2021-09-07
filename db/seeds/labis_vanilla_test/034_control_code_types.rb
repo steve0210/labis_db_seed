@@ -1,4 +1,4 @@
-Object.const_set("ControlCodeType", Class.new(ApplicationRecord))
+Object.const_set("ControlCodeType", Class.new(ActiveRecord::Base))
 ControlCodeType.find_or_create_by({"description"=>"Diagnosis Code"})
 ControlCodeType.find_or_create_by({"description"=>"Cytology Study"})
 ControlCodeType.find_or_create_by({"description"=>"Addendum Text"})

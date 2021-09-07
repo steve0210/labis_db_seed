@@ -1,4 +1,4 @@
-Object.const_set("ClientAccountPhysician", Class.new(ApplicationRecord))
+Object.const_set("ClientAccountPhysician", Class.new(ActiveRecord::Base))
 ClientAccountPhysician.find_or_create_by({"first_name"=>"Test", "last_name"=>"Physician", "credentials"=>"MD", "tps_id"=>"c8c0fc91-9e04-4f64-9355-fb6436f14350", "active"=>true, "account_id"=>1})
 ClientAccountPhysician.find_or_create_by({"first_name"=>"Test", "last_name"=>"Test", "credentials"=>"MD", "active"=>true, "account_id"=>1})
 ClientAccountPhysician.find_or_create_by({"first_name"=>"TEST", "last_name"=>"TEST", "credentials"=>"DR", "active"=>true, "account_id"=>25})

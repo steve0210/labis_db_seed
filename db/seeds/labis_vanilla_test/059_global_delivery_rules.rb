@@ -1,1 +1,1 @@
-Object.const_set("GlobalDeliveryRule", Class.new(ApplicationRecord))
+Object.const_set("GlobalDeliveryRule", Class.new(ActiveRecord::Base))

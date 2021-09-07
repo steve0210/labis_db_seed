@@ -1,4 +1,4 @@
-Object.const_set("SpecimenTest", Class.new(ApplicationRecord))
+Object.const_set("SpecimenTest", Class.new(ActiveRecord::Base))
 SpecimenTest.find_or_create_by({"test_code"=>"5004", "description"=>"Cytopathology, cell enhance tech", "cpt_code"=>"88112", "active"=>true, "specimen_test_type_id"=>4, "full_test"=>true, "specimen_test_category_id"=>2, "tps_id"=>"44D6DB81-895A-4319-9AE5-8600559CA0B3", "new_case"=>true, "include_in_eorder"=>true, "show_in_procedure_queue"=>true})
 SpecimenTest.find_or_create_by({"test_code"=>"5004", "description"=>"Cytopathology, cell enhance tech (TC)", "cpt_code"=>"88112TC", "active"=>true, "specimen_test_type_id"=>13, "tc_test"=>true, "specimen_test_category_id"=>2, "tps_id"=>"BAE45FC2-585A-48A9-BA05-053190974167", "show_in_procedure_queue"=>true})
 SpecimenTest.find_or_create_by({"test_code"=>"5027", "description"=>"Cytopathology, FNA", "cpt_code"=>"88173", "active"=>true, "specimen_test_type_id"=>4, "full_test"=>true, "specimen_test_category_id"=>2, "tps_id"=>"E47ED013-6C3C-4BF1-ADEB-F911B5B9AD8C", "new_case"=>true, "show_in_procedure_queue"=>true})

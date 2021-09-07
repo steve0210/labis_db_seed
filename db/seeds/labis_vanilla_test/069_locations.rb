@@ -1,4 +1,4 @@
-Object.const_set("Location", Class.new(ApplicationRecord))
+Object.const_set("Location", Class.new(ActiveRecord::Base))
 Location.find_or_create_by({"address_one"=>"2100 SE 17th Street", "city"=>"Ocala", "state"=>"FL", "zip"=>"34471", "phone"=>"3527329990", "clia"=>"1", "account_id"=>1, "location_name"=>"CBLPATH", "active"=>true, "location_code"=>"1", "active_logo"=>170, "include_pms"=>true, "pms_connection_type"=>"TCPIP", "pms_address"=>"192.168.3.23", "pms_port"=>"2727", "smart_search"=>true, "case_seed"=>56})
 Location.find_or_create_by({"address_one"=>"45 Manor Road", "city"=>"Smithtown", "state"=>"NY", "zip"=>"11787", "phone"=>"6313614000", "account_id"=>2, "location_name"=>"McClain Laboratories, LLC", "active"=>true, "location_code"=>"1", "case_seed"=>0})
 Location.find_or_create_by({"address_one"=>"222 Middle Country Road", "address_two"=>"Suite 228", "city"=>"Smithtown", "state"=>"NY", "zip"=>"11787", "phone"=>"6312651351", "account_id"=>3, "location_name"=>"Dermatique", "active"=>true, "location_code"=>"1", "case_seed"=>0})

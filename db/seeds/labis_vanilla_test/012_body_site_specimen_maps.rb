@@ -1,1 +1,1 @@
-Object.const_set("BodySiteSpecimenMap", Class.new(ApplicationRecord))
+Object.const_set("BodySiteSpecimenMap", Class.new(ActiveRecord::Base))

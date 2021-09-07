@@ -1,4 +1,4 @@
-Object.const_set("Relationship", Class.new(ApplicationRecord))
+Object.const_set("Relationship", Class.new(ActiveRecord::Base))
 Relationship.find_or_create_by({"description"=>"Self"})
 Relationship.find_or_create_by({"description"=>"Spouse"})
 Relationship.find_or_create_by({"description"=>"Parent"})

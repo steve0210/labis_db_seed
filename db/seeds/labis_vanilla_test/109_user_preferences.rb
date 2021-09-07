@@ -1,4 +1,4 @@
-Object.const_set("UserPreference", Class.new(ApplicationRecord))
+Object.const_set("UserPreference", Class.new(ActiveRecord::Base))
 UserPreference.find_or_create_by({"user_id"=>1, "default_studies_test_menu"=>"TC"})
 UserPreference.find_or_create_by({"user_id"=>2, "dashboard"=>"Client Center", "default_studies_test_menu"=>"TC"})
 UserPreference.find_or_create_by({"user_id"=>3, "default_location_id"=>1, "dashboard"=>"Lab Processing", "default_studies_test_menu"=>"TC"})

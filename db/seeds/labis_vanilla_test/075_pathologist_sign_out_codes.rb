@@ -1,1 +1,1 @@
-Object.const_set("PathologistSignOutCode", Class.new(ApplicationRecord))
+Object.const_set("PathologistSignOutCode", Class.new(ActiveRecord::Base))

@@ -1,4 +1,4 @@
-Object.const_set("ClientAccountLocation", Class.new(ApplicationRecord))
+Object.const_set("ClientAccountLocation", Class.new(ActiveRecord::Base))
 ClientAccountLocation.find_or_create_by({"address_one"=>"2100 SE 17th Street", "address_two"=>"Suite 300", "city"=>"Ocala", "state"=>"FL", "zip"=>"34474", "client_account_id"=>2, "active"=>true, "primary_contact"=>"Steve Dave", "phone"=>"3527329990", "fax"=>"8663292252", "location_number"=>"FL-0000021", "image_capture_preference"=>"None"})
 ClientAccountLocation.find_or_create_by({"address_one"=>"1811 BETHLEHEM PIKE", "city"=>"FLOURTOWN", "state"=>"PA", "zip"=>"19335", "client_account_id"=>58, "active"=>true, "primary_contact"=>"TEST", "phone"=>"6102345678", "location_number"=>"PA-0000041"})
 ClientAccountLocation.find_or_create_by({"address_one"=>"1811 Bethlehem Pike", "address_two"=>"Test", "city"=>"Flourtest", "state"=>"PA", "zip"=>"19031", "client_account_id"=>63, "active"=>true, "primary_contact"=>"Gerald Bertiger", "phone"=>"2154020800", "location_number"=>"PA-0000051"})

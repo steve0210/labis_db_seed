@@ -1,4 +1,4 @@
-Object.const_set("SpecimenTypesTest", Class.new(ApplicationRecord))
+Object.const_set("SpecimenTypesTest", Class.new(ActiveRecord::Base))
 SpecimenTypesTest.find_or_create_by({"specimen_type_id"=>29, "specimen_test_id"=>1, "is_default"=>true, "case_type_id"=>3})
 SpecimenTypesTest.find_or_create_by({"specimen_type_id"=>5, "specimen_test_id"=>1, "is_default"=>true, "case_type_id"=>1})
 SpecimenTypesTest.find_or_create_by({"specimen_type_id"=>30, "specimen_test_id"=>1, "is_default"=>true, "case_type_id"=>3})

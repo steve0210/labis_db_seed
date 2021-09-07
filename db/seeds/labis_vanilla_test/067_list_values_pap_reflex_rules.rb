@@ -1,1 +1,1 @@
-Object.const_set("ListValuesPapReflexRule", Class.new(ApplicationRecord))
+Object.const_set("ListValuesPapReflexRule", Class.new(ActiveRecord::Base))

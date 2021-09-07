@@ -1,4 +1,4 @@
-Object.const_set("DefaultRole", Class.new(ApplicationRecord))
+Object.const_set("DefaultRole", Class.new(ActiveRecord::Base))
 DefaultRole.find_or_create_by({"description"=>"Administrator"})
 DefaultRole.find_or_create_by({"description"=>"Accessioner"})
 DefaultRole.find_or_create_by({"description"=>"Grosser"})

@@ -1,4 +1,4 @@
-Object.const_set("SpecimenType", Class.new(ApplicationRecord))
+Object.const_set("SpecimenType", Class.new(ActiveRecord::Base))
 SpecimenType.find_or_create_by({"description"=>"AP FNA/CB", "tps_id"=>"35A725B4-E843-4848-A178-93E01CC223E5", "account_id"=>1})
 SpecimenType.find_or_create_by({"description"=>"AP FNA", "tps_id"=>"AC4B4A93-E17D-4E7B-A606-812BB891065C", "account_id"=>1})
 SpecimenType.find_or_create_by({"description"=>"AP FNA/CB/DQ", "tps_id"=>"BBD1A034-B7D9-4A89-A741-99DCD6020CA3", "account_id"=>1})
