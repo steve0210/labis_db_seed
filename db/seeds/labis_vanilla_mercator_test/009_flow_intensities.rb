@@ -1,0 +1,7 @@
+Object.const_set("FlowIntensity", Class.new(ActiveRecord::Base))
+FlowIntensity.find_or_create_by({"description"=>"Bright", "tps_id"=>"E21F43E3-D255-41BF-8043-09E5A6B8B4DE", "lab_is_id"=>1})
+FlowIntensity.find_or_create_by({"description"=>"Moderate", "tps_id"=>"23A2A2F0-567F-4E6C-9941-0F88BAF44ED2", "lab_is_id"=>4})
+FlowIntensity.find_or_create_by({"description"=>"Moderate-Bright", "tps_id"=>"3773356B-6252-43AF-84DF-259930B2C377", "lab_is_id"=>5})
+FlowIntensity.find_or_create_by({"description"=>"Dim-Moderate", "tps_id"=>"07DF02A1-46B1-4433-97A5-428C317C3EB9", "lab_is_id"=>3})
+FlowIntensity.find_or_create_by({"description"=>"Dim", "tps_id"=>"82C75375-AD82-403B-9223-5E874BBBFFEA", "lab_is_id"=>2})
+FlowIntensity.find_or_create_by({"description"=>"Negative", "tps_id"=>"F00E57F8-E80D-45D1-876B-C8098BC6DFB2", "lab_is_id"=>6})

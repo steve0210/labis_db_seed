@@ -1,0 +1,8 @@
+Object.const_set("DxSubClassification", Class.new(ActiveRecord::Base))
+DxSubClassification.find_or_create_by({"description"=>"Benign", "tps_id"=>"FA5E5BFC-01C3-4757-90AA-D2D412348977", "lab_is_id"=>6})
+DxSubClassification.find_or_create_by({"description"=>"High Grade", "tps_id"=>"086FA03B-C688-43DE-8AC9-2320B6B4C50E", "lab_is_id"=>2})
+DxSubClassification.find_or_create_by({"description"=>"Low Grade", "tps_id"=>"8E488549-3832-403A-AE3D-A96D24043D16", "lab_is_id"=>4})
+DxSubClassification.find_or_create_by({"description"=>"Mild Atypia", "tps_id"=>"B1DAEAEA-56C4-4B9F-A95B-104937EFA442", "lab_is_id"=>1})
+DxSubClassification.find_or_create_by({"description"=>"Moderate Atypia", "tps_id"=>"6B0DA11B-1AD4-449A-904E-E802F9442523", "lab_is_id"=>7})
+DxSubClassification.find_or_create_by({"description"=>"Renal Path", "tps_id"=>"7F18327C-21EC-45F9-82B4-CC8C7F40010C", "lab_is_id"=>5})
+DxSubClassification.find_or_create_by({"description"=>"Severe/CIS Atypia", "tps_id"=>"15AD20E1-7B13-4034-B6E0-9ECB1C671001", "lab_is_id"=>3})

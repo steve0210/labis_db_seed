@@ -1,0 +1,7 @@
+Object.const_set("HemeDescription", Class.new(ActiveRecord::Base))
+HemeDescription.find_or_create_by({"description"=>"Cellularity", "tps_id"=>"466575C0-C8F6-40D4-88C0-52075CA83165", "lab_is_id"=>1})
+HemeDescription.find_or_create_by({"description"=>"Myelopoiesis", "tps_id"=>"5A928FC4-AAFE-4717-B0C3-EAF8410EB4A9", "lab_is_id"=>2})
+HemeDescription.find_or_create_by({"description"=>"Erythropoiesis", "tps_id"=>"39EEDFDD-2030-4649-B017-F14C8D349F9E", "lab_is_id"=>3})
+HemeDescription.find_or_create_by({"description"=>"Megakaryocytes", "tps_id"=>"057554C5-7A7D-4B7C-82A5-6641109CFCB3", "lab_is_id"=>4})
+HemeDescription.find_or_create_by({"description"=>"Other Findings", "tps_id"=>"C8545124-CC82-4E8F-9CDC-9743349CFAFF", "lab_is_id"=>5})
+HemeDescription.find_or_create_by({"description"=>"Iron", "tps_id"=>"03E803F3-9AC4-47FE-9115-2A1267BCAA27", "lab_is_id"=>6})

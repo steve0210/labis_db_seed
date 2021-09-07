@@ -1,0 +1,5 @@
+Object.const_set("FlowMarkerType", Class.new(ActiveRecord::Base))
+FlowMarkerType.find_or_create_by({"description"=>"Miscellaneous", "tps_id"=>"6EE36ED5-B45D-4730-9014-1FE57322E070", "lab_is_id"=>1})
+FlowMarkerType.find_or_create_by({"description"=>"Myeloid Related", "tps_id"=>"92F11E72-E6BD-4983-AE41-5B982D2EFD64", "lab_is_id"=>2})
+FlowMarkerType.find_or_create_by({"description"=>"B-Cell Related", "tps_id"=>"4D865831-9A54-49FE-BF43-5F62861C01A5", "lab_is_id"=>3})
+FlowMarkerType.find_or_create_by({"description"=>"T-Cell Related", "tps_id"=>"3F6FAAD2-ACE4-4600-AA90-8F54E4C67877", "lab_is_id"=>4})

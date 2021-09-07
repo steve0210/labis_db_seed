@@ -1,0 +1,6 @@
+Object.const_set("IhcSpecimenType", Class.new(ActiveRecord::Base))
+IhcSpecimenType.find_or_create_by({"labis_ihc_specimen_type_id"=>2, "tps_ihc_specimen_type_id"=>"3FFB785E-F7F1-4609-98F2-127824B34C1E"})
+IhcSpecimenType.find_or_create_by({"labis_ihc_specimen_type_id"=>5, "tps_ihc_specimen_type_id"=>"4786E91B-61D4-492E-AB57-3F0BAEE4AA06"})
+IhcSpecimenType.find_or_create_by({"labis_ihc_specimen_type_id"=>3, "tps_ihc_specimen_type_id"=>"80FECD57-8477-4676-BAC4-8A92C1A16BB9"})
+IhcSpecimenType.find_or_create_by({"labis_ihc_specimen_type_id"=>1, "tps_ihc_specimen_type_id"=>"30CB1646-9676-4A96-BE5D-604ED014806A"})
+IhcSpecimenType.find_or_create_by({"labis_ihc_specimen_type_id"=>4, "tps_ihc_specimen_type_id"=>"7081A1BC-8696-4F9A-8180-21F03852C905"})

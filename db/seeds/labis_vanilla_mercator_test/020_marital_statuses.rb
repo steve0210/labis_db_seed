@@ -1,0 +1,6 @@
+Object.const_set("MaritalStatus", Class.new(ActiveRecord::Base))
+MaritalStatus.find_or_create_by({"description"=>"Single", "tps_id"=>"5AD9954F-81DD-4ED2-954E-4F481C5F6825", "lab_is_id"=>1})
+MaritalStatus.find_or_create_by({"description"=>"Married", "tps_id"=>"BD964CDC-78ED-46CC-9309-C6579EB482F8", "lab_is_id"=>2})
+MaritalStatus.find_or_create_by({"description"=>"Separated", "tps_id"=>"BD964CDC-78ED-46CC-9309-C6579EB482F8", "lab_is_id"=>3})
+MaritalStatus.find_or_create_by({"description"=>"Divorced", "tps_id"=>"5AD9954F-81DD-4ED2-954E-4F481C5F6825", "lab_is_id"=>4})
+MaritalStatus.find_or_create_by({"description"=>"Widowed", "tps_id"=>"5AD9954F-81DD-4ED2-954E-4F481C5F6825", "lab_is_id"=>5})

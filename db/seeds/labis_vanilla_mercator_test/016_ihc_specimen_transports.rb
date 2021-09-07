@@ -1,0 +1,6 @@
+Object.const_set("IhcSpecimenTransport", Class.new(ActiveRecord::Base))
+IhcSpecimenTransport.find_or_create_by({"labis_ihc_transport_id"=>4, "tps_ihc_transport_id"=>"C1B22FD1-90F0-4ABB-8A8E-3AE49E4B5F0F"})
+IhcSpecimenTransport.find_or_create_by({"labis_ihc_transport_id"=>3, "tps_ihc_transport_id"=>"17D0FBCD-0C29-46B2-ADAB-6F58B4AD0566"})
+IhcSpecimenTransport.find_or_create_by({"labis_ihc_transport_id"=>2, "tps_ihc_transport_id"=>"3B97A62B-9B86-4422-8D29-B103AFDF5718"})
+IhcSpecimenTransport.find_or_create_by({"labis_ihc_transport_id"=>5, "tps_ihc_transport_id"=>"A04B4E5D-5746-4ED4-BB47-E8ADF074C1E1"})
+IhcSpecimenTransport.find_or_create_by({"labis_ihc_transport_id"=>1, "tps_ihc_transport_id"=>"54EB317C-B2FF-4F0B-8159-F7D9CAA6B870"})
