@@ -26,6 +26,8 @@ RUN yum update -y \
 RUN command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
 RUN curl -sSL https://get.rvm.io | bash -s
 RUN /bin/bash -l -c ". /etc/profile.d/rvm.sh && rvm install 2.0.0"
+RUN curl -sL https://rpm.nodesource.com/setup_12.x | bash - \
+  && yum install -y nodejs
 
 WORKDIR /tmp
 RUN useradd -ms /bin/bash -G rvm,disk rails \
