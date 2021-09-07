@@ -3,7 +3,8 @@ require File.join('.', 'lib', 'load_table')
 class WriteSeeds
   CREATE_ENV = {
     "labis_production" => "labis_test",
-    "labis_vanilla_production" => "labis_vanilla_test"
+    "labis_vanilla_production" => "labis_vanilla_test",
+    "labis_vanilla_mercator_production" => "labis_vanilla_mercator_test"
   }
 
   def self.prod_env
